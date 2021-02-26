@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "Digital Clock"
+		},
+		{
+			"path": "Countdown Timer"
+		},
+		{
+			"path": "gallery-start"
+		},
+		{
+			"path": "bouncing balls"
+		},
+		{
+			"path": "bootstrap"
+		},
+		{
+			"path": "Contact Card"
+		},
+		{
+			"path": "campaignComponents"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Campaign Components"
+	}
+}

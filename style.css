@@ -1,0 +1,100 @@
+body {
+    background-color:rgb(29, 91, 206)
+
+}
+.hero-image1 {
+    background-image: url("./imgs/ericAndre.jpg");
+
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    padding-top: 50%;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text1 {
+    font-size: medium;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    font-family: Arial;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+
+.darkened-quote {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: medium;
+    font-style: italic bold;
+    letter-spacing: 3px;
+
+    
+
+}
+.blockquote-footer {
+    color: white;
+    text-align: left;
+
+}
+.container-fluid {
+    margin-top: 1%;
+    padding: 10%;
+
+}
+.row {
+    background-color: cornsilk;
+}
+
+.col {
+}
+.card {
+}
+
+.accordion accordion-flush {
+    background-color: cornsilk;
+
+}
+.accordion accordion-flush text {
+    color: white;
+}
+
+h1 {
+    font-size: 40px; 
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+    letter-spacing: 6px;
+    
+  }
+  
+  .testimonial-quote {
+      font-size: 16px;
+  }
+  
+  .testimonial-quote blockquote {
+      /* Negate theme styles */
+      border: 0;
+      margin: 0;
+      padding: 0;
+  
+      background-image: url("./imgs/ericAndre.jpg");
+      color: gray;
+      font-family: Georgia, serif;
+      font-size: 1.5em;
+      font-style: italic;
+      line-height: 1.4 !important;
+      margin: 0;
+      position: relative;
+      text-shadow: 0 1px white;
+      z-index: 600;
+  }
+  
+ 
